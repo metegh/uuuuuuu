@@ -3766,7 +3766,7 @@ MasteryGamepass:AddButton({
 if game:GetService("MarketplaceService"):UserOwnsGamePassAsync(game.Players.LocalPlayer.UserId,1252283845) then
     OrionLib:MakeNotification({Name = "Error",Content = "Arleady Own Gamepass!",Image = "rbxthumb://type=Asset&id=119832194558748&w=150&h=150",Time = 5})
 else
-    setclipboard(tostring("https://www.roblox.com/game-pass/1095975745"))
+    setclipboard(tostring("https://www.roblox.com/game-pass/1252283845"))
     OrionLib:MakeNotification({Name = "Error",Content = "Copied Gamepass Link!",Image = "rbxthumb://type=Asset&id=119832194558748&w=150&h=150",Time = 5})
 end
 	    
